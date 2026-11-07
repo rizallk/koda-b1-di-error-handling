@@ -34,6 +34,7 @@ builder.Services.AddScoped<IProductRepository, SqlProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductImageStorage, LocalProductImageStorage>();
 
+
 var app = builder.Build();
 
 app.UseExceptionHandler();
@@ -42,6 +43,15 @@ app.UseExceptionHandler();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseSwaggerUI(options =>
+     {
+         options.SwaggerEndpoint("/openapi/v1.json", "Koda Store API v1");
+         options.RoutePrefix = "swagger";
+
+         options.DocumentTitle = "Koda Store | API Documentation";
+
+         options.EnableFilter();
+     });
 }
 
 app.UseHttpsRedirection();

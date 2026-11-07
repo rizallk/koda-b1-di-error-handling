@@ -40,7 +40,7 @@ Accept: application/json
 
 
 ### Upload Gambar
-POST {{baseUrl}}/api/v1/products/P002/image
+POST {{baseUrl}}/api/v1/products/PR002/image
 Content-Type: multipart/form-data; boundary=ErrorHandling
 
 --ErrorHandling

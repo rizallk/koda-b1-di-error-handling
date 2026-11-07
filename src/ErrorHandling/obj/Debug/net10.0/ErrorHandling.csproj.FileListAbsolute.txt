@@ -63,3 +63,7 @@ D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\obj\Debug\ne
 D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\obj\Debug\net10.0\ErrorHandling.pdb
 D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\obj\Debug\net10.0\ErrorHandling.genruntimeconfig.cache
 D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\obj\Debug\net10.0\ref\ErrorHandling.dll
+D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Koda\minitasks\minitask-asp-net\error-handling\src\ErrorHandling\obj\Debug\net10.0\ErrorHandling.sourcelink.json
